@@ -29,10 +29,10 @@ Generate summary statistics and visualizations to identify trends and outliers.
 Assess how various features correlate with charges which is our target variable.
 
 #### insurance.csv
-![alt text](17.jpeg)
+![alt text](/images/17.jpeg)
 
 #### healthcare_dataset.csv
-![alt text](21.jpeg)
+![alt text](/images/21.jpeg)
 
 
 
@@ -42,10 +42,10 @@ Assess how various features correlate with charges which is our target variable.
 Patient are segmented based on K-means clustering for both datasets. We first implemented Elbow method and found the number of clusters. Based on the number of clusters patients are segmented in to different categories.
 
 #### insurance.csv
-![alt text](10.jpeg)
+![alt text](/images/10.jpeg)
 
 #### healthcare_data.csv
-![alt text](22.jpeg)
+![alt text](/images/22.jpeg)
 
 
 
@@ -67,26 +67,26 @@ Use metrics like RMSE , RÂ², f1 score, accuracy, and precision, recall to eval
 Create plots to visualize the accuracy of predictions and the importance of different features.
 
 #### insurance.csv
-![alt text](17.jpeg)
+![alt text](/images/17.jpeg)
 
 #### healthcare_dataset.csv
-![alt text](21.jpeg)
+![alt text](/images/21.jpeg)
 
 ### Linear Regression for Resource Demand Prediction
 
 By applying linear regression on the first dataset, we get Mean Absolute Error equals to 0.5737 which is good as the less it is the better the prediction will be. R squared is negative for the second dataset which shows that the data is not fitted well on the regression model. 
 
-![alt text](20.jpeg)
+![alt text](/images/20.jpeg)
 
 #### healthcare_dataset.csv
-![alt text](23.jpeg)
+![alt text](/images/23.jpeg)
 
 
 ### Linear Regression for Patient health outcome
 By applying linear regression on the first dataset, as we keep the charges as target variable as there was not any other appropriate field the MAE is same as above. On the other hand, for the second dataset the R square is negative which tells us that the data is not fitted well on the regression model
 
 #### healthcare_dataset.csv
-![alt text](24.jpeg)
+![alt text](/images/24.jpeg)
 
 ## Dataset
 This dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study how these features influence insurance costs and develop predictive models for estimating healthcare expenses.
@@ -105,15 +105,15 @@ Region: The geographic area of coverage.
 Charges: The medical insurance costs incurred by the insured person.
 
 #### insurance.csv
-![alt text](1.jpeg)
+![alt text](/images/1.jpeg)
 
-![alt text](2.jpeg)
+![alt text](/images/2.jpeg)
 
-![alt text](3.jpeg)
+![alt text](/images/3.jpeg)
 
-![alt text](4.jpeg)
+![alt text](/images/4.jpeg)
 
-![alt text](5.jpeg)
+![alt text](/images/5.jpeg)
 
 In the second dataset each column provides specific information about the patient, their admission, and the healthcare services provided, making this dataset suitable for various data analysis and modeling tasks in the healthcare domain. Here's a brief explanation of each column in the dataset -
 
@@ -148,14 +148,14 @@ Medication: Identifies a medication prescribed or administered to the patient du
 Test Results: Describes the results of a medical test conducted during the patient's admission. Possible values include "Normal," "Abnormal," or "Inconclusive," indicating the outcome of the test.
 
 #### healthcare_dataset.csv
-![alt text](34.jpeg)
-![alt text](35.jpeg)
-![alt text](36.jpeg)
-![alt text](37.jpeg)
-![alt text](38.jpeg)
-![alt text](39.jpeg)
-![alt text](40.jpeg)
-![alt text](41.jpeg)
+![alt text](/images/34.jpeg)
+![alt text](/images/35.jpeg)
+![alt text](/images/36.jpeg)
+![alt text](/images/37.jpeg)
+![alt text](/images/38.jpeg)
+![alt text](/images/39.jpeg)
+![alt text](/images/40.jpeg)
+![alt text](/images/41.jpeg)
 
 
 
@@ -168,23 +168,23 @@ There was no missing data in both dataset
 Outliers are identified using statistical methods like IQR and handled appropriately to prevent skewing of model predictions but in our case the outliers only existed in the charges which was the target variable and hence we did not remove it.
 
 #### insurance.csv
-![alt text](6.jpeg)
+![alt text](/images/6.jpeg)
 
-![alt text](7.jpeg)
+![alt text](/images/7.jpeg)
 
-![alt text](8.jpeg)
+![alt text](/images/8.jpeg)
 
-![alt text](9.jpeg)
+![alt text](/images/9.jpeg)
 
 #### healthcare_dataset.csv
-![alt text](31.jpeg)
-![alt text](32.jpeg)
-![alt text](33.jpeg)
+![alt text](/images/31.jpeg)
+![alt text](/images/32.jpeg)
+![alt text](/images/33.jpeg)
 
 3) #### Feature Engineering: 
 Derivation of new features that might affect charges, such as interaction terms between features.
 
-![alt text](17.jpeg)
+![alt text](/images/17.jpeg)
 
 
 
@@ -210,20 +210,20 @@ Use of scatter plots, bar charts, and line graphs to visually represent the data
 
 #### insurance.csv
 
-![alt text](10.jpeg)
-![alt text](18.jpeg)
-![alt text](19.jpeg)
-![alt text](56.jpeg)
-![alt text](17.jpeg)
+![alt text](/images/10.jpeg)
+![alt text](/images/18.jpeg)
+![alt text](/images/19.jpeg)
+![alt text](/images/56.jpeg)
+![alt text](/images/17.jpeg)
 
 
 #### healthcare_dataset.csv
-![alt text](25.jpeg)
-![alt text](26.jpeg)
-![alt text](27.jpeg)
-![alt text](28.jpeg)
-![alt text](29.jpeg)
-![alt text](30.jpeg)
+![alt text](/images/25.jpeg)
+![alt text](/images/26.jpeg)
+![alt text](/images/27.jpeg)
+![alt text](/images/28.jpeg)
+![alt text](/images/29.jpeg)
+![alt text](/images/30.jpeg)
 
 
 ## Results
@@ -231,28 +231,28 @@ Use of scatter plots, bar charts, and line graphs to visually represent the data
 We are using 3 classifier models which are Random Forest, Gradient Boosing, Neural Network. Before scaling random forest provides best accuracy among these 3 which is 83% and gradient boosting 81% and Neural Network 66%. After scaling only Neural Network accuracy increased to 85% as scaling only improves Neural Network model.
 
 #### insurance.csv
-![alt text](11.jpeg)
-![alt text](12.jpeg)
-![alt text](13.jpeg)
-![alt text](14.jpeg)
-![alt text](15.jpeg)
-![alt text](16.jpeg)
+![alt text](/images/11.jpeg)
+![alt text](/images/12.jpeg)
+![alt text](/images/13.jpeg)
+![alt text](/images/14.jpeg)
+![alt text](/images/15.jpeg)
+![alt text](/images/16.jpeg)
 
 For the second dataset, we did the same procedure and the accuracy with random forest before scaling was 34% for patient health outcome and 10% for resource demand prediction. For gradient boosting we get 36% accuracy for patient health outcome and 10% for resource demand prediction. Using Neural Network accuracy was 32% for patient health outcome and 9% for resource demand prediction. After scaling all were same but Neural Network gave 33% for patient health outcome and 11% for resource demand prediction.  
 
 #### healtcare_dataset.csv
-![alt text](42.jpeg)
-![alt text](43.jpeg)
-![alt text](44.jpeg)
-![alt text](45.jpeg)
-![alt text](46.jpeg)
-![alt text](47.jpeg)
-![alt text](48.jpeg)
-![alt text](49.jpeg)
-![alt text](50.jpeg)
-![alt text](51.jpeg)
-![alt text](52.jpeg)
-![alt text](53.jpeg)
+![alt text](/images/42.jpeg)
+![alt text](/images/43.jpeg)
+![alt text](/images/44.jpeg)
+![alt text](/images/45.jpeg)
+![alt text](/images/46.jpeg)
+![alt text](/images/47.jpeg)
+![alt text](/images/48.jpeg)
+![alt text](/images/49.jpeg)
+![alt text](/images/50.jpeg)
+![alt text](/images/51.jpeg)
+![alt text](/images/52.jpeg)
+![alt text](/images/53.jpeg)
 #### Insights Derived: 
 Important features influencing resource demand were identified, such as smoker status and age, which were significant predictors of higher charges.
 
@@ -263,10 +263,10 @@ Important features influencing resource demand were identified, such as smoker s
 
 #### Unique Approaches: 
 Implementation of advanced machine learning algorithms like Gradient Boosting and Neural Networks. For the second dataset to improve the accuracy from 10% we did data preprocessing to handle imbalance data, we use a technique called smote and the accuracy increased to 17% for Random forest healthcare_dataset. We also did hyperparameter tuning on resampled Random Forest but the accuracy remain the same.
-![alt text](54.jpeg)
+![alt text](/images/54.jpeg)
 
 After hyperparameter tuning
-![alt text](55.jpeg)
+![alt text](/images/55.jpeg)
 
 
 #### Comparison: 
